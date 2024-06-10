@@ -19,4 +19,25 @@ people = [
         "description": "Singer",
         "country": "USA"
     },
+
+    {
+        "name":"Brzil",
+        "followerCount": 50000,
+        "description": "Country",
+        "country": "Brazil"
+    },
+
+    {
+        "name":"Bayren Minchen",
+        "followerCount": 20000,
+        "description": "City",
+        "country": "Germany"
+    },
+
+    {
+        "name":"Batman",
+        "followerCount": 400000,
+        "description": "Hero",
+        "country": "Gotham City"
+    },
 ]
