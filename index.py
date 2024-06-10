@@ -20,6 +20,8 @@ def game():
     score = 0
     comparisonA = randomChoice(people)
     comparisonB = randomChoice(people)
+    if comparisonA == comparisonB:
+        comparisonB = randomChoice(people)
 
     #looping trough game when the guess is correct
     while gameContinue:
@@ -41,6 +43,8 @@ def game():
             print(f"You are right! Current Score: {score}")
             comparisonA = playerChoice
             comparisonB = randomChoice(people)
+            if comparisonA == comparisonB:
+                comparisonB = randomChoice(people)
    
     #if not right end the game
         else:
