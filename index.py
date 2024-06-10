@@ -1,5 +1,5 @@
 #create dictionary for poeple and import
-
+from data import people
 #get a random person for comparison A and get a random person for comparison B
 
 #initialise a score
